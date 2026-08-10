@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: release-notes-index.html 
+keywords: release notes 
+summary: NetApp Console のローカル展開機能および NetApp データサービスに関するリリースノートの全文をご覧ください。 
+---
+= リリースノート一覧
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Console のローカル展開機能と NetApp データサービスのリリースノートの全文をご覧ください。
+
+
+
+[[netapp-console-local-deployment]]
+== NetApp Console ローカル展開
+
+* https://docs.netapp.com/us-en/console-local/whats-new.html["NetApp Console ローカル展開"^]
+
+
+
+
+[[data-services]]
+== データサービス
+
+* https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["バックアップとリカバリ"^]
+

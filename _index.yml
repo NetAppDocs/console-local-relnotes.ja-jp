@@ -1,0 +1,24 @@
+---
+indexpage:
+  title: NetApp Console ローカル展開リリースノート
+  summary: NetApp Console ローカル展開の一部である機能とデータサービスに対する最新の変更点について説明します。完全なリリース履歴については、各サービスのリリースノート全文をご参照ください。
+  keywords: release notes, enhancements, what's new, netapp console local deployment,
+    console local deployment, local, netapp data services
+  lead: これらのリリースノートでは、NetApp Console のローカル展開とそれがサポートするデータサービスに対する最近の機能強化について説明します。各サービスのリリースノート全文へのリンク。
+  tiles:
+  - title: 新機能
+    links:
+    - title: NetApp Console ローカル展開の最近の変更
+      url: whats-new.html
+  - title: サービス別リリースノート
+    links:
+    - title: リリースノート一覧
+      url: release-notes-index.html
+  - title: ブログとコミュニティ
+    links:
+    - title: NetApp Console ローカル展開
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: NetAppコミュニティ
+      url: https://community.netapp.com/

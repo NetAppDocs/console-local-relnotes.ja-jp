@@ -1,0 +1,28 @@
+---
+settings:
+  name: Release Notes
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  release_notes_autogen:
+    auto_release_notes_enabled: true
+    repositories_features:
+    - console-local
+    - data-services-backup-recovery
+  rss_page: whats-new.html
+  langs: ja-jp,us-en,de-de,es-es,fr-fr,it-it,pt-br,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: NetApp Console ローカル展開リリースノート
+    url: "/index.html"
+  - title: 最近の変更点
+    url: "/whats-new.html"
+  - title: リリースノート一覧
+    url: "/release-notes-index.html"
+  - title: 法律上の表示
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Console local deployment
+  repo: console-family
