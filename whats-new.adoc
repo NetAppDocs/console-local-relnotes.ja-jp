@@ -28,7 +28,7 @@ NetApp Console ローカル展開の一部である機能とデータサービ�
 [[introducing-netapp-console-local-deployment]]
 === NetApp Consoleローカル デプロイのご紹介
 
-https://docs.netapp.com/us-en/console-local/netapp-console-local.html["NetApp Console ローカル展開について学ぶ"]。
+https://docs.netapp.com/us-en/console-local/concept-netapp-console-local.html["NetApp Console ローカル展開について学ぶ"]。
 
 
 
@@ -54,17 +54,6 @@ https://docs.netapp.com/us-en/console-local/netapp-console-local.html["NetApp Co
 
 
 VMwareワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware ワークロードの保護の概要"]を参照してください。
-
-
-
-==== Oracle Databaseワークロードの機能強化
-
-今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：
-
-* *プラガブルデータベース（PDB）の復元とクローン*：NetApp Console のバックアップとリカバリサービスで、プラガブルデータベースの復元とクローン作成がサポートされるようになりました。
-
-
-Oracle Databaseワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Oracle Databaseワークロードの保護の概要"]を参照してください。
 
 
 
