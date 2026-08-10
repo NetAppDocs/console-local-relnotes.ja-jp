@@ -15,3 +15,102 @@ summary: NetApp Console ローカル展開の一部である機能とデータ�
 
 [role="lead"]
 NetApp Console ローカル展開の一部である機能とデータサービスへの最新の変更点について説明します。
+
+
+
+[[10-august-2026]]
+== 2026年8月10日
+
+未解決のディレクティブ（<stdin>）- include::_include/console-local.adoc[] :leveloffset: +1
+
+
+
+[[introducing-netapp-console-local-deployment]]
+=== NetApp Consoleローカル デプロイのご紹介
+
+https://docs.netapp.com/us-en/console-local/netapp-console-local.html["NetApp Console ローカル展開について学ぶ"]。
+
+
+
+[[13-july-2026]]
+== 2026年7月13日
+
+
+
+[[backup-and-recovery]]
+=== バックアップとリカバリ
+
+
+
+==== すべてのワークロードに対するマルチバケットサポートの強化
+
+NetApp Backup and Recovery は、異なるクラウドプロバイダーにまたがる最大 100 個のバケットを使用して、システム内のワークロードを保護する機能をサポートするようになりました。システムあたり 6 つを超えるバケットをサポートするには、ONTAP 9.19.1 以降が必要です。
+
+NetApp Backup and Recovery の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/concept-backup-to-cloud.html["NetApp Backup and Recovery について"]を参照してください。
+
+
+
+[[15-june-2026]]
+== 2026年6月15日
+
+
+
+[[backup-and-recovery]]
+=== バックアップとリカバリ
+
+
+
+==== Kubernetes ワークロードの機能強化
+
+今回のリリースでは、Kubernetesワークロードに以下の機能強化が導入されました。
+
+* *Trident Protect 26.06*：このリリースには Trident Protect 26.06 が含まれます。
+* *復元時のアプリケーション作成をスキップ*：復元操作中に、アプリケーションのカスタムリソースオブジェクトの自動作成をスキップできるようになりました。これにより、アプリケーションインベントリにおける不要なエントリが削減されます。
+* *VM の永続ボリューム要求の復元*：VM ベースのアプリケーションを復元する際に、仮想マシン全体を復元することなく、個々の永続ボリューム要求を復元できるようになりました。これにより、特定のディスクやボリュームが破損またはデータ損失の影響を受けている場合の復旧が迅速化されます。
+* *ジョブモニターの改善*：ジョブモニターにより、Kubernetes 保護ジョブの可視性が向上しました。ジョブとサブジョブに関する詳細なステータス情報を表示したり、それぞれが使用するターゲットストレージを確認したりできます。
+
+
+Kubernetesワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Kubernetes ワークロードの保護の概要"]を参照してください。
+
+
+
+[[08-june-2026]]
+== 2026年6月8日
+
+
+
+[[backup-and-recovery]]
+=== バックアップとリカバリ
+
+
+
+==== ONTAP ボリュームワークロードの機能強化
+
+今回のリリースでは、ONTAP Volumes ワークロードに以下の機能強化が導入されました：
+
+*S3互換クラウドストレージのサポート*：NetApp Backup and Recovery for Volumesワークロードが、S3互換のクラウドストレージへのバックアップをサポートするようになりました。
+
+ONTAP ボリュームワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["ONTAP ボリュームワークロードの保護の概要"]を参照してください。
+
+
+
+==== Hyper-V ワークロードの機能強化
+
+今回のリリースでは、Hyper-V ワークロードに以下の機能強化が導入されました。
+
+* *ゲストVMへのファイルとフォルダのリストアの改善*：プライマリストレージまたはセカンダリストレージのSnapshotから、ゲストWindows VMにファイルとフォルダをリストアできるようになりました。この機能は、CIFSおよびSAN VMでサポートされるようになりました。
+* *保護グループがホストのタイムゾーンのスケジュールを使用するようになりました*：保護グループがHyper-Vホストのタイムゾーンを使用するようになりました。ホストタイムゾーンスケジューリングが導入される前に作成された保護グループは、以前に設定された時刻（通常はUTC）を引き続き使用します。これらの保護グループを更新してHyper-Vホストのタイムゾーンを使用するようにするには、スケジュールを再作成する必要があります。詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protection-groups.html["Hyper-Vワークロード用の保護グループを作成および管理する"]を参照してください。
+
+
+Hyper-Vワークロードの保護に関する詳細は、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Hyper-Vワークロードの保護の概要"]を参照してください。
+
+
+
+==== VMwareワークロードの機能強化
+
+今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました。
+
+* *保護グループがホストのタイムゾーンスケジューリングを使用するようになりました*：保護グループは、ホスティング VMware vCenter Server のタイムゾーンを使用するようになりました。ホストタイムゾーンスケジューリングが導入される前に作成された保護グループは、以前に設定されたタイムゾーン（通常は UTC）で引き続き実行されます。vCenter のタイムゾーンを使用するには、スケジュールを再作成する必要があります。詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["VMwareワークロードの保護グループを作成および管理する"]を参照してください。
+
+
+VMwareワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware ワークロードの保護の概要"]を参照してください。
