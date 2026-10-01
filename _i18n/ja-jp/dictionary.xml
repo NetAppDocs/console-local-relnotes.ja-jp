@@ -114,4 +114,8 @@
   <block id="1e2fd5e7979041c997816d29d5c1e2c0" category="inline-link">VMwareワークロードをNetApp Backup and Recoveryで保護する</block>
   <block id="af77598cf52235180b19bf359e518fc2" category="paragraph">VMwareワークロードの保護の詳細については、<block ref="d7977b9c562cb95be37532b996678207" category="inline-link-rx"></block>を参照してください。</block>
   <block id="e133e28734ec4222b7f45792925cee97" category="section-title">2026年9月28日</block>
+  <block id="935253a377b19143ee00ca184dec844f" category="paragraph">今回のリリースでは、ONTAP Volumes ワークロードに以下のプレビュー版の機能強化が導入されます。</block>
+  <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*ボリューム復元ジョブのキャンセル*：ジョブ監視ページから進行中の ONTAP ボリューム復元ジョブをキャンセルできるようになりました。これにより、長時間実行されるジョブや実行速度の遅いジョブの管理が容易になります。</block>
+  <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*ボリュームインデックスステータスレポートの改善*：ONTAP ボリュームダッシュボードは、インデックス作成の対象とならないボリュームおよびスナップショットコピーに<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>ステータスを導入することで、インデックス作成ステータスをより正確に報告するようになりました。<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>ステータスは、インデックス作成待ちのボリューム専用となり、ボリュームの詳細にはスナップショットごとのインデックス作成ステータスが表示され、ボリュームまたはスナップショットコピーがインデックス作成されない理由を説明するホバーテキストが表示されるようになりました。</block>
+  <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFXサポート*：2ノードおよび4ノードのNetApp AFXクラスターでホストされているボリュームを保護できるようになりました。</block>
 </blocks>
