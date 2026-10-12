@@ -50,14 +50,9 @@
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">今回のリリースでは、Kubernetesワークロードに以下の機能強化が導入されました。</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes ワークロードの保護の概要</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Kubernetesワークロードの保護の詳細については、<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="66591c0e71be05bd24e1869944b92db6" category="doc">すべてのワークロードに対するマルチバケットサポートの強化</block>
-  <block id="62ff0d9db122207756fd73342a3eb3ad" category="paragraph">NetApp Backup and Recovery は、異なるクラウドプロバイダーにまたがる最大 100 個のバケットを使用して、システム内のワークロードを保護する機能をサポートするようになりました。システムあたり 6 つを超えるバケットをサポートするには、ONTAP 9.19.1 以降が必要です。</block>
-  <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">NetApp Backup and Recovery について</block>
-  <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">NetApp Backup and Recovery の詳細については、<block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>を参照してください。</block>
   <block id="2402a0b8d9aa0c3e1beaccf0071277cc" category="doc">NetApp Consoleローカル デプロイのご紹介</block>
   <block id="258ea65dfbe28db96b93f873d22fbf91" category="inline-link">NetApp Console ローカル展開について学ぶ</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
-  <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
   <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">一般的なNetApp Backup and Recovery の機能強化</block>
   <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*NetApp Console ローカル展開のサポート*：このリリースの NetApp Backup and Recovery は、プレビュー ステータスの NetApp Console ローカル展開をサポートしています。</block>
   <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90日間のジョブ保持*：Backup and Recovery では、ジョブモニター内のジョブ情報が90日間保持されるようになりました。</block>
@@ -120,4 +115,15 @@
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFXサポート*：2ノードおよび4ノードのNetApp AFXクラスターでホストされているボリュームを保護できるようになりました。</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID のサポート*：Azure 認証にストレージアカウントのアクセスキーを使用しない場合は、Azure オブジェクトストレージバケット構成に Microsoft Entra ID 認証を使用できるようになりました。このオプションは、ONTAP 9.16.1以降を実行しているAzureシステム内のCloud Volumes ONTAPでサポートされています。</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMwareワークロードの機能強化</block>
+  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">今回のリリースでは、Hyper-V ワークロードに以下の機能強化が導入されました。</block>
+  <block id="b77bf9dc680cf2db1d8b3d5f6156585b" category="list-text">*NetApp MetroClusterサポート*：NetApp Backup and Recoveryにより、NetApp MetroClusterでミラーリングされたHyper-V VMを保護できるようになりました。</block>
+  <block id="7ed9eebaad97e0f936b753873e6ff586" category="list-text">*SAN VMのスパンディスク保護*：CIFSおよびSAN構成の場合、保護グループ内の各VMに接続されているすべてのディスクを保護できるようになりました。これには、複数のONTAPボリュームまたはONTAPストレージシステムに分散しているファイル（スパンディスク）や、単一の場所に限定されたファイルが含まれます。</block>
+  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：</block>
+  <block id="82dd01a289cf98e9d962781faec1018b" category="paragraph">*自動アーカイブログ管理*：データベースのリストアおよびクローン処理中、NetApp Backup and Recoveryは必要なアーカイブログを自動的に検出してマウントし、処理が完了するとアンマウントします。プライマリ、セカンダリ、およびオブジェクトストレージのログソースがサポートされています。</block>
+  <block id="5f1a7ddd55d2a0b34003e08fe7cacdaf" category="section-title">Microsoft SQL Serverワークロードの強化</block>
+  <block id="32d770e78ed41453037389dce2e33d9c" category="paragraph">今回のリリースでは、Microsoft SQL Serverワークロードに以下の機能強化が導入されました：</block>
+  <block id="92337d8e70dfe880909b2051333e2fe4" category="paragraph">*ライセンス変更*：ディスク間またはディスク間のファンアウトアーキテクチャを使用したバックアップには、料金が適用されなくなりました。料金は、3-2-1またはディスクツーオブジェクトストレージアーキテクチャを使用したバックアップを含む、オブジェクトストレージへのバックアップにのみ適用されます。</block>
+  <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">NetApp Backup and Recoveryを使用したMicrosoft SQL Serverワークロードの保護について</block>
+  <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Microsoft SQL Serverワークロードの保護の詳細については、<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026年10月12日</block>
 </blocks>
