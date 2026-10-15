@@ -126,4 +126,5 @@
   <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">NetApp Backup and Recoveryを使用したMicrosoft SQL Serverワークロードの保護について</block>
   <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Microsoft SQL Serverワークロードの保護の詳細については、<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>を参照してください。</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026年10月12日</block>
+  <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*ジョブモニターのカスタム日付範囲フィルタリング*：ジョブモニターのカレンダーからカスタムの開始日と終了日を選択することで、過去90日間のジョブを検索できるようになりました。</block>
 </blocks>
