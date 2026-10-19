@@ -18,6 +18,26 @@ NetApp Console ローカル展開の一部である機能とデータサービ�
 
 
 
+[[19-october-2026]]
+== 2026年10月19日
+
+
+
+[[backup-and-recovery]]
+=== バックアップとリカバリ
+
+
+
+==== Oracle Databaseワークロードの強化
+
+今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：
+
+*Oracle Data Guardのサポート*：NetApp Backup and Recoveryは、Oracle Data Guardを使用して高可用性を実現するプライマリおよびスタンバイデータベースを保護するために、保護グループを使用することをサポートするようになりました。
+
+Oracle Databaseワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["NetApp Backup and Recovery を使用した Oracle Database ワークロードの保護について学ぶ"]を参照してください。
+
+
+
 [[12-october-2026]]
 == 2026年10月12日
 
